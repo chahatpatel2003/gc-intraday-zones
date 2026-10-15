@@ -1,0 +1,1441 @@
+{
+ "ZON-026": {
+  "zones": 7800,
+  "roll_killed": 0,
+  "days": 1534,
+  "zones_per_day": 5.08,
+  "active_per_day_mean": 55.81,
+  "touched_per_day": 20.22,
+  "prim_events_per_day": 2.679,
+  "width_pts": [
+   1.36,
+   2.6,
+   4.9
+  ],
+  "width_adr": [
+   0.067,
+   0.148,
+   0.269
+  ],
+  "age_min_median": 618.0,
+  "N_primary": 4110,
+  "N_raw_first": 6439,
+  "inside_at_activation": 51727,
+  "ambig_rate": 0.0745,
+  "trunc_FE60": 11,
+  "touch_buckets": {
+   "retest": [
+    146142,
+    -0.0779
+   ],
+   "t1": [
+    6400,
+    -0.0232
+   ],
+   "t2": [
+    5326,
+    -0.0806
+   ],
+   "t3+": [
+    23427,
+    -0.1153
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0596,
+    "AE_adr": 0.0624,
+    "FE_pts": 1.154,
+    "AE_pts": 1.2,
+    "FE_W": 0.533,
+    "AE_W": 0.645
+   },
+   "15": {
+    "FE_adr": 0.0877,
+    "AE_adr": 0.0876,
+    "FE_pts": 1.704,
+    "AE_pts": 1.702,
+    "FE_W": 0.788,
+    "AE_W": 0.901
+   },
+   "30": {
+    "FE_adr": 0.1143,
+    "AE_adr": 0.1117,
+    "FE_pts": 2.223,
+    "AE_pts": 2.173,
+    "FE_W": 1.017,
+    "AE_W": 1.143
+   },
+   "60": {
+    "FE_adr": 0.1484,
+    "AE_adr": 0.1478,
+    "FE_pts": 2.891,
+    "AE_pts": 2.87,
+    "FE_W": 1.334,
+    "AE_W": 1.492
+   },
+   "120": {
+    "FE_adr": 0.1951,
+    "AE_adr": 0.1965,
+    "FE_pts": 3.834,
+    "AE_pts": 3.839,
+    "FE_W": 1.775,
+    "AE_W": 1.961
+   }
+  },
+  "rejW_rate": 0.3494,
+  "rejA_rate": 0.1903,
+  "trav_rate": 0.4345,
+  "depth_med": 0.7,
+  "reclaim_rate": 0.9227,
+  "speed_med_min": 44.0,
+  "sessions": {
+   "0": [
+    950,
+    -0.0144
+   ],
+   "1": [
+    1017,
+    -0.0007
+   ],
+   "2": [
+    1736,
+    0.0093
+   ],
+   "3": [
+    407,
+    0.0016
+   ]
+  },
+  "C1": {
+   "n": 550,
+   "delta": 0.1014,
+   "ci": [
+    0.0654,
+    0.1372
+   ],
+   "shadow_unavailable_rate": 0.832,
+   "v2_diag": {
+    "k_distribution": {
+     "2": 1134,
+     "3": 1088,
+     "4": 668,
+     "12": 319,
+     "10": 421,
+     "5": 593,
+     "6": 515,
+     "8": 502
+    },
+    "zones_without_control": 4558,
+    "zones_total": 7800,
+    "shadows": 5240,
+    "shadows_per_zone": 0.67
+   }
+  },
+  "C2": {
+   "n_events_paired": 4099,
+   "n_donor_rows": 20537,
+   "delta": 0.0085,
+   "ci": [
+    -0.0022,
+    0.0186
+   ],
+   "shortfall_events": 9
+  },
+  "secondary": {
+   "dFE60_adr_c2": 0.01,
+   "rejA_c1": 0.0353,
+   "rejA_c2": -0.0009,
+   "trav_c1": -0.297,
+   "trav_c2": -0.0262
+  },
+  "yearly_c2": {
+   "2016": -0.0063,
+   "2017": 0.0067,
+   "2018": 0.0094,
+   "2019": 0.0118,
+   "2020": 0.0082,
+   "2021": 0.0188
+  },
+  "classification": "PROMISING",
+  "spacing": {
+   "nn_gap_adr_median": 0.022,
+   "nn_gap_adr_p25": 0.009,
+   "overlap_pair_share": 0.867
+  },
+  "stream": {
+   "events_per_day": 2.679,
+   "day_dist": {
+    "0": 0.14,
+    "1": 0.173,
+    "2-5": 0.595,
+    ">5": 0.091
+   },
+   "nn_gap_adr_median": 0.143
+  }
+ },
+ "ZON-027": {
+  "zones": 3168,
+  "roll_killed": 0,
+  "days": 1534,
+  "zones_per_day": 2.07,
+  "active_per_day_mean": 22.62,
+  "touched_per_day": 25.52,
+  "prim_events_per_day": 1.858,
+  "width_pts": [
+   0.4,
+   0.8,
+   1.4
+  ],
+  "width_adr": [
+   0.026,
+   0.046,
+   0.075
+  ],
+  "age_min_median": 220.5,
+  "N_primary": 2850,
+  "N_raw_first": 2867,
+  "inside_at_activation": 5704,
+  "ambig_rate": 0.2189,
+  "trunc_FE60": 7,
+  "touch_buckets": {
+   "retest": [
+    212336,
+    -0.0368
+   ],
+   "t1": [
+    2864,
+    -0.0032
+   ],
+   "t2": [
+    2655,
+    -0.0439
+   ],
+   "t3+": [
+    25508,
+    -0.0558
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0573,
+    "AE_adr": 0.0603,
+    "FE_pts": 1.127,
+    "AE_pts": 1.156,
+    "FE_W": 1.696,
+    "AE_W": 1.799
+   },
+   "15": {
+    "FE_adr": 0.0846,
+    "AE_adr": 0.0856,
+    "FE_pts": 1.678,
+    "AE_pts": 1.661,
+    "FE_W": 2.491,
+    "AE_W": 2.552
+   },
+   "30": {
+    "FE_adr": 0.1089,
+    "AE_adr": 0.1133,
+    "FE_pts": 2.173,
+    "AE_pts": 2.204,
+    "FE_W": 3.25,
+    "AE_W": 3.409
+   },
+   "60": {
+    "FE_adr": 0.1459,
+    "AE_adr": 0.1489,
+    "FE_pts": 2.917,
+    "AE_pts": 2.911,
+    "FE_W": 4.394,
+    "AE_W": 4.46
+   },
+   "120": {
+    "FE_adr": 0.1931,
+    "AE_adr": 0.1968,
+    "FE_pts": 3.864,
+    "AE_pts": 3.908,
+    "FE_W": 5.851,
+    "AE_W": 5.832
+   }
+  },
+  "rejW_rate": 0.4505,
+  "rejA_rate": 0.1179,
+  "trav_rate": 0.754,
+  "depth_med": 2.75,
+  "reclaim_rate": 0.9535,
+  "speed_med_min": 43.0,
+  "sessions": {
+   "0": [
+    613,
+    0.003
+   ],
+   "1": [
+    795,
+    0.002
+   ],
+   "2": [
+    1229,
+    -0.0069
+   ],
+   "3": [
+    213,
+    -0.0172
+   ]
+  },
+  "C1": {
+   "n": 5017,
+   "delta": -0.0057,
+   "ci": [
+    -0.0203,
+    0.0096
+   ],
+   "shadow_unavailable_rate": 0.378,
+   "v2_diag": {
+    "k_distribution": {
+     "2": 1581,
+     "3": 1667,
+     "4": 874,
+     "5": 856,
+     "6": 773,
+     "10": 732,
+     "12": 569,
+     "8": 830
+    },
+    "zones_without_control": 290,
+    "zones_total": 3168,
+    "shadows": 7882,
+    "shadows_per_zone": 2.49
+   }
+  },
+  "C2": {
+   "n_events_paired": 2843,
+   "n_donor_rows": 14250,
+   "delta": 0.0048,
+   "ci": [
+    -0.0046,
+    0.0145
+   ],
+   "shortfall_events": 0
+  },
+  "secondary": {
+   "dFE60_adr_c2": 0.0158,
+   "rejA_c1": -0.001,
+   "rejA_c2": 0.0108,
+   "trav_c1": -0.0539,
+   "trav_c2": -0.0116
+  },
+  "yearly_c2": {
+   "2016": 0.0167,
+   "2017": -0.002,
+   "2018": -0.0052,
+   "2019": -0.0118,
+   "2020": 0.007,
+   "2021": 0.0218
+  },
+  "classification": "NO LOCATION EDGE",
+  "spacing": {
+   "nn_gap_adr_median": 0.066,
+   "nn_gap_adr_p25": 0.025,
+   "overlap_pair_share": 0.381
+  },
+  "stream": {
+   "events_per_day": 1.858,
+   "day_dist": {
+    "0": 0.139,
+    "1": 0.286,
+    "2-5": 0.57,
+    ">5": 0.005
+   },
+   "nn_gap_adr_median": 0.17
+  }
+ },
+ "ZON-028": {
+  "zones": 530,
+  "roll_killed": 1,
+  "days": 1534,
+  "zones_per_day": 0.35,
+  "active_per_day_mean": 2.07,
+  "touched_per_day": 2.94,
+  "prim_events_per_day": 0.324,
+  "width_pts": [
+   1.7,
+   2.7,
+   4.5
+  ],
+  "width_adr": [
+   0.102,
+   0.166,
+   0.239
+  ],
+  "age_min_median": 24.0,
+  "N_primary": 497,
+  "N_raw_first": 499,
+  "inside_at_activation": 2375,
+  "ambig_rate": 0.0161,
+  "trunc_FE60": 4,
+  "touch_buckets": {
+   "retest": [
+    7114,
+    -0.0959
+   ],
+   "t1": [
+    497,
+    0.0199
+   ],
+   "t2": [
+    388,
+    -0.0611
+   ],
+   "t3+": [
+    1533,
+    -0.1333
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0458,
+    "AE_adr": 0.0363,
+    "FE_pts": 0.871,
+    "AE_pts": 0.705,
+    "FE_W": 0.332,
+    "AE_W": 0.281
+   },
+   "15": {
+    "FE_adr": 0.0749,
+    "AE_adr": 0.0555,
+    "FE_pts": 1.416,
+    "AE_pts": 1.082,
+    "FE_W": 0.54,
+    "AE_W": 0.432
+   },
+   "30": {
+    "FE_adr": 0.1014,
+    "AE_adr": 0.0778,
+    "FE_pts": 1.942,
+    "AE_pts": 1.506,
+    "FE_W": 0.719,
+    "AE_W": 0.594
+   },
+   "60": {
+    "FE_adr": 0.133,
+    "AE_adr": 0.1131,
+    "FE_pts": 2.578,
+    "AE_pts": 2.211,
+    "FE_W": 0.976,
+    "AE_W": 0.886
+   },
+   "120": {
+    "FE_adr": 0.1781,
+    "AE_adr": 0.154,
+    "FE_pts": 3.492,
+    "AE_pts": 2.982,
+    "FE_W": 1.288,
+    "AE_W": 1.188
+   }
+  },
+  "rejW_rate": 0.3602,
+  "rejA_rate": 0.2093,
+  "trav_rate": 0.334,
+  "depth_med": 0.614,
+  "reclaim_rate": 0.9458,
+  "speed_med_min": 49.0,
+  "sessions": {
+   "0": [
+    164,
+    0.0143
+   ],
+   "1": [
+    130,
+    0.0122
+   ],
+   "2": [
+    160,
+    0.0263
+   ],
+   "3": [
+    43,
+    0.0418
+   ]
+  },
+  "C1": {
+   "n": 1161,
+   "delta": 0.0532,
+   "ci": [
+    0.0272,
+    0.0776
+   ],
+   "shadow_unavailable_rate": 0.162,
+   "v2_diag": {
+    "k_distribution": {
+     "2": 742,
+     "3": 678,
+     "4": 161,
+     "5": 94,
+     "6": 50,
+     "8": 29,
+     "10": 16,
+     "12": 7
+    },
+    "zones_without_control": 9,
+    "zones_total": 530,
+    "shadows": 1777,
+    "shadows_per_zone": 3.35
+   }
+  },
+  "C2": {
+   "n_events_paired": 493,
+   "n_donor_rows": 2485,
+   "delta": 0.0241,
+   "ci": [
+    0.0051,
+    0.0435
+   ],
+   "shortfall_events": 0
+  },
+  "secondary": {
+   "dFE60_adr_c2": 0.0161,
+   "rejA_c1": 0.0393,
+   "rejA_c2": 0.0402,
+   "trav_c1": -0.2128,
+   "trav_c2": -0.0322
+  },
+  "yearly_c2": {
+   "2016": 0.0331,
+   "2017": 0.0492,
+   "2018": 0.0304,
+   "2019": 0.0251,
+   "2020": 0.0317,
+   "2021": -0.032
+  },
+  "classification": "PROMISING",
+  "spacing": {
+   "nn_gap_adr_median": 0.61,
+   "nn_gap_adr_p25": 0.265,
+   "overlap_pair_share": 0.022
+  },
+  "stream": {
+   "events_per_day": 0.324,
+   "day_dist": {
+    "0": 0.687,
+    "1": 0.302,
+    "2-5": 0.011,
+    ">5": 0.0
+   },
+   "nn_gap_adr_median": 0.164
+  }
+ },
+ "ZON-029": {
+  "zones": 13406,
+  "roll_killed": 0,
+  "days": 1534,
+  "zones_per_day": 8.74,
+  "active_per_day_mean": 52.38,
+  "touched_per_day": 36.83,
+  "prim_events_per_day": 5.719,
+  "width_pts": [
+   0.67,
+   0.99,
+   1.34
+  ],
+  "width_adr": [
+   0.05,
+   0.05,
+   0.051
+  ],
+  "age_min_median": 121.0,
+  "N_primary": 8773,
+  "N_raw_first": 11985,
+  "inside_at_activation": 12688,
+  "ambig_rate": 0.1071,
+  "trunc_FE60": 19,
+  "touch_buckets": {
+   "retest": [
+    464011,
+    -0.0506
+   ],
+   "t1": [
+    11969,
+    -0.0109
+   ],
+   "t2": [
+    10890,
+    -0.0461
+   ],
+   "t3+": [
+    61677,
+    -0.0676
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0486,
+    "AE_adr": 0.055,
+    "FE_pts": 0.955,
+    "AE_pts": 1.057,
+    "FE_W": 0.894,
+    "AE_W": 1.015
+   },
+   "15": {
+    "FE_adr": 0.0737,
+    "AE_adr": 0.0806,
+    "FE_pts": 1.448,
+    "AE_pts": 1.563,
+    "FE_W": 1.359,
+    "AE_W": 1.486
+   },
+   "30": {
+    "FE_adr": 0.0982,
+    "AE_adr": 0.1061,
+    "FE_pts": 1.931,
+    "AE_pts": 2.066,
+    "FE_W": 1.811,
+    "AE_W": 1.959
+   },
+   "60": {
+    "FE_adr": 0.1326,
+    "AE_adr": 0.1397,
+    "FE_pts": 2.602,
+    "AE_pts": 2.731,
+    "FE_W": 2.451,
+    "AE_W": 2.583
+   },
+   "120": {
+    "FE_adr": 0.178,
+    "AE_adr": 0.181,
+    "FE_pts": 3.515,
+    "AE_pts": 3.551,
+    "FE_W": 3.296,
+    "AE_W": 3.35
+   }
+  },
+  "rejW_rate": 0.506,
+  "rejA_rate": 0.1188,
+  "trav_rate": 0.7256,
+  "depth_med": 2.168,
+  "reclaim_rate": 0.9507,
+  "speed_med_min": 44.0,
+  "sessions": {
+   "0": [
+    2327,
+    -0.0064
+   ],
+   "1": [
+    2367,
+    -0.0054
+   ],
+   "2": [
+    3557,
+    -0.0088
+   ],
+   "3": [
+    522,
+    -0.0057
+   ]
+  },
+  "C1": {
+   "n": 3018,
+   "delta": 0.0184,
+   "ci": [
+    0.0031,
+    0.0358
+   ],
+   "shadow_unavailable_rate": 0.635,
+   "v2_diag": {
+    "k_distribution": {
+     "4": 1778,
+     "5": 1941,
+     "6": 2022,
+     "8": 2864,
+     "3": 2131,
+     "10": 3591,
+     "12": 3641,
+     "2": 1615
+    },
+    "zones_without_control": 3566,
+    "zones_total": 13406,
+    "shadows": 19583,
+    "shadows_per_zone": 1.46
+   }
+  },
+  "C2": {
+   "n_events_paired": 8754,
+   "n_donor_rows": 43865,
+   "delta": -0.0013,
+   "ci": [
+    -0.0081,
+    0.0053
+   ],
+   "shortfall_events": 0
+  },
+  "secondary": {
+   "dFE60_adr_c2": -0.0031,
+   "rejA_c1": -0.0398,
+   "rejA_c2": -0.001,
+   "trav_c1": 0.0027,
+   "trav_c2": -0.0269
+  },
+  "yearly_c2": {
+   "2016": -0.002,
+   "2017": -0.0008,
+   "2018": 0.0118,
+   "2019": -0.0038,
+   "2020": -0.0077,
+   "2021": -0.0045
+  },
+  "classification": "NO LOCATION EDGE",
+  "spacing": {
+   "nn_gap_adr_median": 0.017,
+   "nn_gap_adr_p25": 0.006,
+   "overlap_pair_share": 0.803
+  },
+  "stream": {
+   "events_per_day": 5.719,
+   "day_dist": {
+    "0": 0.044,
+    "1": 0.058,
+    "2-5": 0.392,
+    ">5": 0.506
+   },
+   "nn_gap_adr_median": 0.064
+  }
+ },
+ "ZON-030": {
+  "zones": 691,
+  "roll_killed": 0,
+  "days": 1534,
+  "zones_per_day": 0.45,
+  "active_per_day_mean": 4.94,
+  "touched_per_day": 3.96,
+  "prim_events_per_day": 0.368,
+  "width_pts": [
+   1.9,
+   3.0,
+   4.8
+  ],
+  "width_adr": [
+   0.117,
+   0.165,
+   0.243
+  ],
+  "age_min_median": 522.0,
+  "N_primary": 565,
+  "N_raw_first": 595,
+  "inside_at_activation": 3842,
+  "ambig_rate": 0.0372,
+  "trunc_FE60": 4,
+  "touch_buckets": {
+   "retest": [
+    10746,
+    -0.0979
+   ],
+   "t1": [
+    593,
+    0.003
+   ],
+   "t2": [
+    514,
+    -0.0835
+   ],
+   "t3+": [
+    2532,
+    -0.1338
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0651,
+    "AE_adr": 0.0703,
+    "FE_pts": 1.268,
+    "AE_pts": 1.427,
+    "FE_W": 0.46,
+    "AE_W": 0.514
+   },
+   "15": {
+    "FE_adr": 0.0939,
+    "AE_adr": 0.0966,
+    "FE_pts": 1.84,
+    "AE_pts": 1.976,
+    "FE_W": 0.658,
+    "AE_W": 0.701
+   },
+   "30": {
+    "FE_adr": 0.1205,
+    "AE_adr": 0.1276,
+    "FE_pts": 2.388,
+    "AE_pts": 2.577,
+    "FE_W": 0.834,
+    "AE_W": 0.914
+   },
+   "60": {
+    "FE_adr": 0.1632,
+    "AE_adr": 0.1624,
+    "FE_pts": 3.243,
+    "AE_pts": 3.277,
+    "FE_W": 1.121,
+    "AE_W": 1.13
+   },
+   "120": {
+    "FE_adr": 0.2134,
+    "AE_adr": 0.2047,
+    "FE_pts": 4.217,
+    "AE_pts": 4.173,
+    "FE_W": 1.46,
+    "AE_W": 1.395
+   }
+  },
+  "rejW_rate": 0.3593,
+  "rejA_rate": 0.2212,
+  "trav_rate": 0.4248,
+  "depth_med": 0.711,
+  "reclaim_rate": 0.9667,
+  "speed_med_min": 42.0,
+  "sessions": {
+   "0": [
+    101,
+    -0.0301
+   ],
+   "1": [
+    126,
+    -0.0089
+   ],
+   "2": [
+    276,
+    0.0096
+   ],
+   "3": [
+    62,
+    0.0324
+   ]
+  },
+  "C1": {
+   "n": 1058,
+   "delta": 0.0244,
+   "ci": [
+    -0.0081,
+    0.055
+   ],
+   "shadow_unavailable_rate": 0.366,
+   "v2_diag": {
+    "k_distribution": {
+     "2": 592,
+     "3": 538,
+     "4": 230,
+     "5": 190,
+     "6": 116,
+     "8": 59,
+     "10": 17,
+     "12": 11
+    },
+    "zones_without_control": 53,
+    "zones_total": 691,
+    "shadows": 1753,
+    "shadows_per_zone": 2.54
+   }
+  },
+  "C2": {
+   "n_events_paired": 561,
+   "n_donor_rows": 2825,
+   "delta": 0.0044,
+   "ci": [
+    -0.0207,
+    0.0297
+   ],
+   "shortfall_events": 0
+  },
+  "secondary": {
+   "dFE60_adr_c2": 0.0294,
+   "rejA_c1": -0.0131,
+   "rejA_c2": 0.0365,
+   "trav_c1": -0.1224,
+   "trav_c2": 0.046
+  },
+  "yearly_c2": {
+   "2016": 0.0397,
+   "2017": 0.0144,
+   "2018": -0.0602,
+   "2019": 0.0177,
+   "2020": -0.0106,
+   "2021": 0.0223
+  },
+  "classification": "NO LOCATION EDGE",
+  "spacing": {
+   "nn_gap_adr_median": 0.294,
+   "nn_gap_adr_p25": 0.111,
+   "overlap_pair_share": 0.273
+  },
+  "stream": {
+   "events_per_day": 0.368,
+   "day_dist": {
+    "0": 0.694,
+    "1": 0.249,
+    "2-5": 0.057,
+    ">5": 0.0
+   },
+   "nn_gap_adr_median": 0.39
+  }
+ },
+ "ZON-031": {
+  "zones": 586,
+  "roll_killed": 0,
+  "days": 1534,
+  "zones_per_day": 0.38,
+  "active_per_day_mean": 1.89,
+  "touched_per_day": 1.17,
+  "prim_events_per_day": 0.217,
+  "width_pts": [
+   3.63,
+   5.22,
+   7.37
+  ],
+  "width_adr": [
+   0.243,
+   0.292,
+   0.376
+  ],
+  "age_min_median": 707.0,
+  "N_primary": 333,
+  "N_raw_first": 340,
+  "inside_at_activation": 2800,
+  "ambig_rate": 0.015,
+  "trunc_FE60": 1,
+  "touch_buckets": {
+   "retest": [
+    610,
+    -0.0638
+   ],
+   "t1": [
+    333,
+    -0.0397
+   ],
+   "t2": [
+    285,
+    -0.054
+   ],
+   "t3+": [
+    1035,
+    -0.1542
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0531,
+    "AE_adr": 0.0766,
+    "FE_pts": 1.065,
+    "AE_pts": 1.493,
+    "FE_W": 0.193,
+    "AE_W": 0.262
+   },
+   "15": {
+    "FE_adr": 0.0715,
+    "AE_adr": 0.0993,
+    "FE_pts": 1.424,
+    "AE_pts": 1.914,
+    "FE_W": 0.258,
+    "AE_W": 0.34
+   },
+   "30": {
+    "FE_adr": 0.088,
+    "AE_adr": 0.1284,
+    "FE_pts": 1.752,
+    "AE_pts": 2.45,
+    "FE_W": 0.317,
+    "AE_W": 0.433
+   },
+   "60": {
+    "FE_adr": 0.121,
+    "AE_adr": 0.1606,
+    "FE_pts": 2.358,
+    "AE_pts": 3.065,
+    "FE_W": 0.43,
+    "AE_W": 0.543
+   },
+   "120": {
+    "FE_adr": 0.1617,
+    "AE_adr": 0.2035,
+    "FE_pts": 3.106,
+    "AE_pts": 3.855,
+    "FE_W": 0.567,
+    "AE_W": 0.697
+   }
+  },
+  "rejW_rate": 0.1351,
+  "rejA_rate": 0.1892,
+  "trav_rate": 0.1952,
+  "depth_med": 0.398,
+  "reclaim_rate": 0.9385,
+  "speed_med_min": 55.0,
+  "sessions": {
+   "0": [
+    175,
+    -0.0556
+   ],
+   "1": [
+    69,
+    0.033
+   ],
+   "2": [
+    77,
+    -0.0822
+   ],
+   "3": [
+    12,
+    0.0464
+   ]
+  },
+  "C1": {
+   "n": 894,
+   "delta": -0.0138,
+   "ci": [
+    -0.0525,
+    0.0179
+   ],
+   "shadow_unavailable_rate": 0.261,
+   "v2_diag": {
+    "k_distribution": {
+     "2": 1048,
+     "3": 684
+    },
+    "zones_without_control": 62,
+    "zones_total": 586,
+    "shadows": 1732,
+    "shadows_per_zone": 2.96
+   }
+  },
+  "C2": {
+   "n_events_paired": 332,
+   "n_donor_rows": 1665,
+   "delta": -0.0274,
+   "ci": [
+    -0.0596,
+    0.0008
+   ],
+   "shortfall_events": 0
+  },
+  "secondary": {
+   "dFE60_adr_c2": 0.0096,
+   "rejA_c1": 0.0032,
+   "rejA_c2": 0.0222,
+   "trav_c1": -0.0086,
+   "trav_c2": 0.0523
+  },
+  "yearly_c2": {
+   "2016": -0.0514,
+   "2017": -0.0531,
+   "2018": -0.0139,
+   "2019": -0.0273,
+   "2020": -0.0377,
+   "2021": 0.0189
+  },
+  "classification": "NO LOCATION EDGE",
+  "spacing": {
+   "nn_gap_adr_median": 1.786,
+   "nn_gap_adr_p25": 1.444,
+   "overlap_pair_share": 0.0
+  },
+  "stream": {
+   "events_per_day": 0.217,
+   "day_dist": {
+    "0": 0.786,
+    "1": 0.211,
+    "2-5": 0.003,
+    ">5": 0.0
+   },
+   "nn_gap_adr_median": 1.294
+  }
+ },
+ "ZON-032": {
+  "zones": 783,
+  "roll_killed": 0,
+  "days": 1534,
+  "zones_per_day": 0.51,
+  "active_per_day_mean": 0.51,
+  "touched_per_day": 1.15,
+  "prim_events_per_day": 0.306,
+  "width_pts": [
+   1.4,
+   2.5,
+   4.6
+  ],
+  "width_adr": [
+   0.079,
+   0.137,
+   0.235
+  ],
+  "age_min_median": 255.0,
+  "N_primary": 470,
+  "N_raw_first": 470,
+  "inside_at_activation": 649,
+  "ambig_rate": 0.0745,
+  "trunc_FE60": 4,
+  "touch_buckets": {
+   "retest": [
+    3185,
+    -0.0839
+   ],
+   "t1": [
+    470,
+    -0.0109
+   ],
+   "t2": [
+    147,
+    -0.0921
+   ],
+   "t3+": [
+    751,
+    -0.0898
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0423,
+    "AE_adr": 0.0554,
+    "FE_pts": 0.826,
+    "AE_pts": 1.129,
+    "FE_W": 0.377,
+    "AE_W": 0.565
+   },
+   "15": {
+    "FE_adr": 0.0636,
+    "AE_adr": 0.0747,
+    "FE_pts": 1.247,
+    "AE_pts": 1.54,
+    "FE_W": 0.609,
+    "AE_W": 0.731
+   },
+   "30": {
+    "FE_adr": 0.0812,
+    "AE_adr": 0.0941,
+    "FE_pts": 1.622,
+    "AE_pts": 1.899,
+    "FE_W": 0.769,
+    "AE_W": 0.919
+   },
+   "60": {
+    "FE_adr": 0.1057,
+    "AE_adr": 0.1167,
+    "FE_pts": 2.124,
+    "AE_pts": 2.336,
+    "FE_W": 1.04,
+    "AE_W": 1.118
+   },
+   "120": {
+    "FE_adr": 0.1465,
+    "AE_adr": 0.1519,
+    "FE_pts": 2.855,
+    "AE_pts": 3.002,
+    "FE_W": 1.432,
+    "AE_W": 1.421
+   }
+  },
+  "rejW_rate": 0.2809,
+  "rejA_rate": 0.1106,
+  "trav_rate": 0.4043,
+  "depth_med": 0.719,
+  "reclaim_rate": 0.9737,
+  "speed_med_min": 67.5,
+  "sessions": {
+   "0": [
+    301,
+    -0.0048
+   ],
+   "1": [
+    75,
+    -0.0256
+   ],
+   "2": [
+    79,
+    -0.0051
+   ],
+   "3": [
+    15,
+    -0.0893
+   ]
+  },
+  "C1": {
+   "n": 1549,
+   "delta": -0.0054,
+   "ci": [
+    -0.0264,
+    0.0147
+   ],
+   "shadow_unavailable_rate": 0.063,
+   "v2_diag": {
+    "k_distribution": {
+     "2": 1566,
+     "3": 1370
+    },
+    "zones_without_control": 0,
+    "zones_total": 783,
+    "shadows": 2936,
+    "shadows_per_zone": 3.75
+   }
+  },
+  "C2": {
+   "n_events_paired": 466,
+   "n_donor_rows": 2350,
+   "delta": -0.0048,
+   "ci": [
+    -0.0243,
+    0.0132
+   ],
+   "shortfall_events": 0
+  },
+  "secondary": {
+   "dFE60_adr_c2": -0.0005,
+   "rejA_c1": -0.0135,
+   "rejA_c2": -0.0268,
+   "trav_c1": -0.0234,
+   "trav_c2": 0.0043
+  },
+  "yearly_c2": {
+   "2016": -0.0216,
+   "2017": 0.0014,
+   "2018": -0.0095,
+   "2019": 0.0045,
+   "2020": -0.0121,
+   "2021": 0.0082
+  },
+  "classification": "NO LOCATION EDGE",
+  "spacing": {
+   "nn_gap_adr_median": null,
+   "nn_gap_adr_p25": null,
+   "overlap_pair_share": 0.0
+  },
+  "stream": {
+   "events_per_day": 0.306,
+   "day_dist": {
+    "0": 0.694,
+    "1": 0.306,
+    "2-5": 0.0,
+    ">5": 0.0
+   },
+   "nn_gap_adr_median": null
+  }
+ },
+ "ZON-033": {
+  "zones": 3014,
+  "roll_killed": 0,
+  "days": 1534,
+  "zones_per_day": 1.96,
+  "active_per_day_mean": 1.97,
+  "touched_per_day": 4.96,
+  "prim_events_per_day": 1.04,
+  "width_pts": [
+   1.1,
+   1.7,
+   2.8
+  ],
+  "width_adr": [
+   0.066,
+   0.095,
+   0.141
+  ],
+  "age_min_median": 134.5,
+  "N_primary": 1596,
+  "N_raw_first": 1698,
+  "inside_at_activation": 2761,
+  "ambig_rate": 0.0934,
+  "trunc_FE60": 11,
+  "touch_buckets": {
+   "retest": [
+    11598,
+    -0.086
+   ],
+   "t1": [
+    1597,
+    -0.0165
+   ],
+   "t2": [
+    1151,
+    -0.0592
+   ],
+   "t3+": [
+    5436,
+    -0.1024
+   ]
+  },
+  "profile": {
+   "5": {
+    "FE_adr": 0.0431,
+    "AE_adr": 0.0555,
+    "FE_pts": 0.817,
+    "AE_pts": 1.055,
+    "FE_W": 0.508,
+    "AE_W": 0.626
+   },
+   "15": {
+    "FE_adr": 0.0601,
+    "AE_adr": 0.0737,
+    "FE_pts": 1.165,
+    "AE_pts": 1.401,
+    "FE_W": 0.713,
+    "AE_W": 0.829
+   },
+   "30": {
+    "FE_adr": 0.0774,
+    "AE_adr": 0.0944,
+    "FE_pts": 1.496,
+    "AE_pts": 1.775,
+    "FE_W": 0.913,
+    "AE_W": 1.081
+   },
+   "60": {
+    "FE_adr": 0.1018,
+    "AE_adr": 0.1183,
+    "FE_pts": 1.948,
+    "AE_pts": 2.23,
+    "FE_W": 1.183,
+    "AE_W": 1.361
+   },
+   "120": {
+    "FE_adr": 0.1389,
+    "AE_adr": 0.1571,
+    "FE_pts": 2.635,
+    "AE_pts": 2.97,
+    "FE_W": 1.604,
+    "AE_W": 1.847
+   }
+  },
+  "rejW_rate": 0.3853,
+  "rejA_rate": 0.1021,
+  "trav_rate": 0.4843,
+  "depth_med": 0.912,
+  "reclaim_rate": 0.969,
+  "speed_med_min": 57.0,
+  "sessions": {
+   "0": [
+    1120,
+    -0.0227
+   ],
+   "1": [
+    206,
+    -0.0061
+   ],
+   "2": [
+    221,
+    -0.0002
+   ],
+   "3": [
+    49,
+    0.0069
+   ]
+  },
+  "C1": {
+   "n": 5255,
+   "delta": -0.0014,
+   "ci": [
+    -0.0144,
+    0.0119
+   ],
+   "shadow_unavailable_rate": 0.027,
+   "v2_diag": {
+    "k_distribution": {
+     "2": 5947,
+     "3": 5673,
+     "4": 70,
+     "5": 42,
+     "8": 1,
+     "6": 2
+    },
+    "zones_without_control": 0,
+    "zones_total": 3014,
+    "shadows": 11735,
+    "shadows_per_zone": 3.89
+   }
+  },
+  "C2": {
+   "n_events_paired": 1585,
+   "n_donor_rows": 7980,
+   "delta": -0.0104,
+   "ci": [
+    -0.0219,
+    0.0011
+   ],
+   "shortfall_events": 0
+  },
+  "secondary": {
+   "dFE60_adr_c2": -0.0027,
+   "rejA_c1": -0.0226,
+   "rejA_c2": -0.016,
+   "trav_c1": -0.0771,
+   "trav_c2": -0.0102
+  },
+  "yearly_c2": {
+   "2016": 0.0005,
+   "2017": -0.0223,
+   "2018": -0.0221,
+   "2019": -0.0057,
+   "2020": -0.0321,
+   "2021": 0.0178
+  },
+  "classification": "NO LOCATION EDGE",
+  "spacing": {
+   "nn_gap_adr_median": 0.881,
+   "nn_gap_adr_p25": 0.654,
+   "overlap_pair_share": 0.0
+  },
+  "stream": {
+   "events_per_day": 1.04,
+   "day_dist": {
+    "0": 0.139,
+    "1": 0.682,
+    "2-5": 0.179,
+    ">5": 0.0
+   },
+   "nn_gap_adr_median": 0.643
+  }
+ },
+ "cross_family": {
+  "primary": {
+   "episodes": 19194,
+   "clusters": 14724,
+   "clusters_per_day": 9.6,
+   "multi_family_share": 0.209,
+   "mean_members": 1.3,
+   "top_pairs": {
+    "ZON-027+ZON-029": 1277,
+    "ZON-026+ZON-029": 1277,
+    "ZON-026+ZON-027": 677,
+    "ZON-026+ZON-033": 364,
+    "ZON-029+ZON-033": 311,
+    "ZON-029+ZON-030": 255,
+    "ZON-027+ZON-030": 235,
+    "ZON-027+ZON-033": 166
+   }
+  },
+  "all_touches": {
+   "episodes": 148411,
+   "clusters": 48519,
+   "clusters_per_day": 31.63,
+   "multi_family_share": 0.515,
+   "mean_members": 3.06,
+   "top_pairs": {
+    "ZON-027+ZON-029": 15875,
+    "ZON-026+ZON-029": 15026,
+    "ZON-026+ZON-027": 11457,
+    "ZON-029+ZON-033": 4532,
+    "ZON-029+ZON-030": 3934,
+    "ZON-027+ZON-030": 3792,
+    "ZON-026+ZON-033": 3660,
+    "ZON-026+ZON-030": 3548
+   }
+  },
+  "day_distribution": {
+   "0": 0.001,
+   "1": 0.008,
+   "2-5": 0.022,
+   ">5": 0.969,
+   "median_per_day": 32.0
+  }
+ },
+ "strong_frequency": {
+  "strong": [],
+  "promising": [
+   "ZON-026",
+   "ZON-028"
+  ],
+  "strong_per_day": 0,
+  "strong_plus_promising_per_day": 3.003,
+  "raw_per_day": 12.51
+ }
+}

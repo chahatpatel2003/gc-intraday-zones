@@ -1,0 +1,12 @@
+d15dc597799989abbf36aaf0c8141b6bcb04b50ee242b37d71b721d5b0b39260  /Volumes/T9/Gc:Xauusd/gc/gc_2016.parquet
+85df77f7931b0cee72bf97f65c7e2f2df3cdad0f3846b5771b1d16b8fd80f93d  /Volumes/T9/Gc:Xauusd/gc/gc_2017.parquet
+eabcefa635994b063c725362b53650164f35f94c9b103435cf90c30166f7aa81  /Volumes/T9/Gc:Xauusd/gc/gc_2018.parquet
+e0f10fca75ef2762f385870218cd218645e11014276bb7c13aae4089bbe22cf1  /Volumes/T9/Gc:Xauusd/gc/gc_2019.parquet
+340b569d633dc276194cea4d231a460af56ff20647b0118c90ce654a3b66ca24  /Volumes/T9/Gc:Xauusd/gc/gc_2020.parquet
+8d9726b7bd4dda22e9c21b171e8e7ecaf028aea42e8cfdaaec548a58470b9b85  /Volumes/T9/Gc:Xauusd/gc/gc_2021.parquet
+aacdea543bc2fce73702a323b4333d2309c2a591e08e0681572457c5d73488cb  /Volumes/T9/Gc:Xauusd/gc/gc_2022.parquet
+d8c6f2b584078880ba8c6f2d2c0e01dab344791cafdde182cdf54eb224f24a92  /Volumes/T9/Gc:Xauusd/gc/gc_2023.parquet
+851fb93706828355dcd4b4e714f47da2b046e9d5b5cb44fc06c93296a3b68c84  /Volumes/T9/Gc:Xauusd/XAUUSD Data/xauusd_dukascopy.py
+9ea5830c57e740fff107f5f0e3cd0563cb02d93aa51f1b82cc0e54ec3038b05e  /Volumes/T9/Gc:Xauusd/XAUUSD Data/gaps_report.csv
+383401cb3b06d8078ba7c0699a7af035618d4093e6354c62800b417de947a02e  /Volumes/T9/Gc:Xauusd/XAUUSD Data/daily_counts.csv
+f02e01f159d9690eba3491e5e78801f8e5f61fcd7ca391714ffcbd68f0cc7f2a  /Volumes/T9/Gc:Xauusd/XAUUSD Data/README.txt

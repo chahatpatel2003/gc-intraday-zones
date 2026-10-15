@@ -1,0 +1,132 @@
+{
+ "sealed_utc_boundary": "2024-01-01T00:00:00Z",
+ "rule": "Everything at or after the boundary is SEALED for both instruments. Research code must never read these paths, and must filter mixed files to ts < boundary.",
+ "gc_holdout_files": [
+  {
+   "path": "/Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2024.parquet",
+   "bytes": 5681383,
+   "sha256": "5dca299dfdea6b6e916066141f4fee4da9a9ef4b811e747dd0cac4a256207dda",
+   "rows_footer": 351320,
+   "ts_min_footer": "2024-01-01 23:00:00+00:00",
+   "ts_max_footer": "2024-12-31 21:59:00+00:00"
+  },
+  {
+   "path": "/Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2024_jan.parquet",
+   "bytes": 448152,
+   "sha256": "4fddb599f625e05daef64a38addbce69e535595dba8fbe98e84531f21a8974c0",
+   "rows_footer": 28098,
+   "ts_min_footer": "2024-01-01 23:00:00+00:00",
+   "ts_max_footer": "2024-01-30 23:35:00+00:00"
+  },
+  {
+   "path": "/Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2025.parquet",
+   "bytes": 6140949,
+   "sha256": "d4d637cb7704c1c701793a51a8566b3cceaa528780786665190659855ad338d5",
+   "rows_footer": 350874,
+   "ts_min_footer": "2025-01-01 23:00:00+00:00",
+   "ts_max_footer": "2025-12-31 21:59:00+00:00"
+  }
+ ],
+ "xauusd_raw_holdout": {
+  "root": "/Volumes/T9/Gc:Xauusd/XAUUSD Data/raw/XAUUSD/Hold out",
+  "files": 18720,
+  "nodata_markers": 4002,
+  "bytes": 730838477,
+  "aggregate_sha256_of_hashlist": "bf6edd498b610368477f4f3f095999bbc79944667bc051b1c441a7327abd8934"
+ },
+ "xauusd_mixed_files": [
+  {
+   "path": "/Volumes/T9/Gc:Xauusd/XAUUSD Data/XAUUSD_1min.parquet",
+   "bytes": 40135524,
+   "sha256": "67eb177072cc7e7d4334a20331ba0c8563d66ac482b6b9cb85e851d1d9b2f44e",
+   "contains": "2021-06-29 .. 2026-06-28 (rows >= 2024-01-01 are SEALED)"
+  },
+  {
+   "path": "/Volumes/T9/Gc:Xauusd/XAUUSD Data/XAUUSD_1min.csv",
+   "bytes": 143313243,
+   "sha256": "4eb9649a849b8929fa5c39e97c8495286ff1357ae6d6109e5f340d558e95aab6",
+   "contains": "2021-06-29 .. 2026-06-28 (rows >= 2024-01-01 are SEALED)"
+  }
+ ],
+ "shadow_copies": {
+  "gc_desktop": [
+   {
+    "path": "~/Desktop/gc DATA/gc_2016.parquet",
+    "bytes": 5352241,
+    "sha256": "d15dc597799989abbf36aaf0c8141b6bcb04b50ee242b37d71b721d5b0b39260"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2017.parquet",
+    "bytes": 5001043,
+    "sha256": "85df77f7931b0cee72bf97f65c7e2f2df3cdad0f3846b5771b1d16b8fd80f93d"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2018.parquet",
+    "bytes": 5165922,
+    "sha256": "eabcefa635994b063c725362b53650164f35f94c9b103435cf90c30166f7aa81"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2019.parquet",
+    "bytes": 5109690,
+    "sha256": "e0f10fca75ef2762f385870218cd218645e11014276bb7c13aae4089bbe22cf1"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2020.parquet",
+    "bytes": 5643054,
+    "sha256": "340b569d633dc276194cea4d231a460af56ff20647b0118c90ce654a3b66ca24"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2021.parquet",
+    "bytes": 5376647,
+    "sha256": "8d9726b7bd4dda22e9c21b171e8e7ecaf028aea42e8cfdaaec548a58470b9b85"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2022.parquet",
+    "bytes": 5615442,
+    "sha256": "aacdea543bc2fce73702a323b4333d2309c2a591e08e0681572457c5d73488cb"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2023.parquet",
+    "bytes": 5352505,
+    "sha256": "d8c6f2b584078880ba8c6f2d2c0e01dab344791cafdde182cdf54eb224f24a92"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2024.parquet",
+    "bytes": 5681383,
+    "sha256": "5dca299dfdea6b6e916066141f4fee4da9a9ef4b811e747dd0cac4a256207dda"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2024_jan.parquet",
+    "bytes": 448152,
+    "sha256": "4fddb599f625e05daef64a38addbce69e535595dba8fbe98e84531f21a8974c0"
+   },
+   {
+    "path": "~/Desktop/gc DATA/gc_2025.parquet",
+    "bytes": 6140949,
+    "sha256": "d4d637cb7704c1c701793a51a8566b3cceaa528780786665190659855ad338d5"
+   }
+  ],
+  "xauusd_t9_data_dir": [
+   {
+    "path": "/Volumes/T9/DATA/XAUUSD Data/XAUUSD_1min.parquet",
+    "bytes": 40135524,
+    "sha256": "67eb177072cc7e7d4334a20331ba0c8563d66ac482b6b9cb85e851d1d9b2f44e"
+   },
+   {
+    "path": "/Volumes/T9/DATA/XAUUSD Data/XAUUSD_1min.csv",
+    "bytes": 143313243,
+    "sha256": "4eb9649a849b8929fa5c39e97c8495286ff1357ae6d6109e5f340d558e95aab6"
+   }
+  ],
+  "xauusd_t9_data_dir_raw_holdout": {
+   "root": "/Volumes/T9/DATA/XAUUSD Data/raw/XAUUSD/Hold out",
+   "files": 18720,
+   "bytes": 730838477
+  }
+ },
+ "notes": [
+  "research raw 2021: 3840 files, 95810358 bytes (not content-hashed)",
+  "research raw 2022: 7488 files, 222356959 bytes (not content-hashed)",
+  "research raw 2023: 7512 files, 145236051 bytes (not content-hashed)"
+ ]
+}

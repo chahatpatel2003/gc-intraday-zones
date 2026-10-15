@@ -1,0 +1,2 @@
+67eb177072cc7e7d4334a20331ba0c8563d66ac482b6b9cb85e851d1d9b2f44e  /Volumes/T9/Gc:Xauusd/XAUUSD Data/XAUUSD_1min.parquet
+4eb9649a849b8929fa5c39e97c8495286ff1357ae6d6109e5f340d558e95aab6  /Volumes/T9/Gc:Xauusd/XAUUSD Data/XAUUSD_1min.csv

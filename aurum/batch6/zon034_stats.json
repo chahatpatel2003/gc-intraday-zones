@@ -1,0 +1,187 @@
+{
+ "zones": 2114,
+ "roll_killed": 0,
+ "days": 1534,
+ "zones_per_day": 1.38,
+ "active_per_day_mean": 15.13,
+ "touched_per_day": 14.38,
+ "prim_events_per_day": 1.168,
+ "width_pts": [
+  1.1,
+  1.7,
+  3.1
+ ],
+ "width_adr": [
+  0.052,
+  0.093,
+  0.169
+ ],
+ "age_min_median": 493.0,
+ "N_primary": 1791,
+ "N_raw_first": 1822,
+ "inside_at_activation": 8637,
+ "ambig_rate": 0.1279,
+ "trunc_FE60": 8,
+ "touch_buckets": {
+  "retest": [
+   60482,
+   -0.0693
+  ],
+  "t1": [
+   1808,
+   -0.0255
+  ],
+  "t2": [
+   1571,
+   -0.0767
+  ],
+  "t3+": [
+   8684,
+   -0.1032
+  ]
+ },
+ "profile": {
+  "5": {
+   "FE_adr": 0.0608,
+   "AE_adr": 0.0747,
+   "FE_pts": 1.19,
+   "AE_pts": 1.436,
+   "FE_W": 0.718,
+   "AE_W": 0.928
+  },
+  "15": {
+   "FE_adr": 0.0889,
+   "AE_adr": 0.1053,
+   "FE_pts": 1.736,
+   "AE_pts": 2.037,
+   "FE_W": 1.058,
+   "AE_W": 1.299
+  },
+  "30": {
+   "FE_adr": 0.1153,
+   "AE_adr": 0.1334,
+   "FE_pts": 2.239,
+   "AE_pts": 2.58,
+   "FE_W": 1.357,
+   "AE_W": 1.614
+  },
+  "60": {
+   "FE_adr": 0.1494,
+   "AE_adr": 0.1742,
+   "FE_pts": 2.889,
+   "AE_pts": 3.374,
+   "FE_W": 1.776,
+   "AE_W": 2.11
+  },
+  "120": {
+   "FE_adr": 0.1948,
+   "AE_adr": 0.2272,
+   "FE_pts": 3.771,
+   "AE_pts": 4.477,
+   "FE_W": 2.33,
+   "AE_W": 2.736
+  }
+ },
+ "rejW_rate": 0.3869,
+ "rejA_rate": 0.1485,
+ "trav_rate": 0.5874,
+ "depth_med": 1.5,
+ "reclaim_rate": 0.9411,
+ "speed_med_min": 42.5,
+ "sessions": {
+  "0": [
+   402,
+   -0.0412
+  ],
+  "1": [
+   442,
+   -0.0255
+  ],
+  "2": [
+   778,
+   -0.0157
+  ],
+  "3": [
+   169,
+   -0.0256
+  ]
+ },
+ "C1": {
+  "n": 1184,
+  "delta": 0.0433,
+  "ci": [
+   0.0166,
+   0.0688
+  ],
+  "shadow_unavailable_rate": 0.643,
+  "v2_diag": {
+   "k_distribution": {
+    "2": 627,
+    "3": 625,
+    "5": 364,
+    "4": 336,
+    "6": 301,
+    "8": 294,
+    "12": 221,
+    "10": 254
+   },
+   "zones_without_control": 652,
+   "zones_total": 2114,
+   "shadows": 3022,
+   "shadows_per_zone": 1.43
+  }
+ },
+ "C2": {
+  "n_events_paired": 1783,
+  "n_donor_rows": 8955,
+  "delta": -0.0196,
+  "ci": [
+   -0.0361,
+   -0.0037
+  ],
+  "shortfall_events": 0
+ },
+ "secondary": {
+  "dFE60_adr_c2": 0.0112,
+  "rejA_c1": 0.041,
+  "rejA_c2": -0.0154,
+  "trav_c1": -0.1985,
+  "trav_c2": 0.0302
+ },
+ "yearly_c2": {
+  "2016": -0.0559,
+  "2017": -0.0064,
+  "2018": -0.0034,
+  "2019": -0.02,
+  "2020": -0.0277,
+  "2021": -0.0046
+ },
+ "classification": "UNRESOLVED/CONTROL FAILURE",
+ "dedup_diag": {
+  "raw_zones": 7800,
+  "representatives": 2114,
+  "suppressed": 5686,
+  "members_mean": 3.69,
+  "members_max": 29
+ },
+ "spacing": {
+  "nn_gap_adr_median": 0.14,
+  "nn_gap_adr_p25": 0.077,
+  "overlap_pair_share": 0.355
+ },
+ "stream": {
+  "events_per_day": 1.168,
+  "day_dist": {
+   "0": 0.297,
+   "1": 0.381,
+   "2-5": 0.321,
+   ">5": 0.001
+  },
+  "nn_gap_adr_median": 0.29
+ },
+ "availability_gate": {
+  "healthy": false,
+  "shadows_per_zone": 1.43,
+  "uncontrolled_share": 0.308
+ }
+}

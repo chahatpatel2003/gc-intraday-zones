@@ -1,0 +1,3 @@
+5dca299dfdea6b6e916066141f4fee4da9a9ef4b811e747dd0cac4a256207dda  /Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2024.parquet
+4fddb599f625e05daef64a38addbce69e535595dba8fbe98e84531f21a8974c0  /Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2024_jan.parquet
+d4d637cb7704c1c701793a51a8566b3cceaa528780786665190659855ad338d5  /Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2025.parquet
